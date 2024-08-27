@@ -1,0 +1,76 @@
+@import "../../styles/variables.scss";
+
+.content-container {
+  // background-color: teal;
+  font-size: $font-size-mobile-medium;
+
+  @media (min-width: $mobile-breakpoint) {
+    font-size: $font-size-tablet-medium;
+  }
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: $font-size-desktop-medium;
+  }
+
+  .content-header {
+    background-color: red;
+    color: white;
+    position: absolute;
+  }
+
+  flex: 1;
+  margin: 0px 50px;
+
+  .header-text {
+    font-weight: 500;
+  }
+
+  .benefits-container {
+    margin-left: 30px;
+  }
+
+  .benefits-children {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .divider {
+    height: 1px;
+    background-color: rgb(52, 45, 45);
+    width: 100%;
+  }
+
+  // payment modal
+  .modal-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #0cba6f;
+  }
+
+ 
+
+
+
+
+  .project-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .project-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .file-type,
+  .account-number {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+
+
+ 
+
+}

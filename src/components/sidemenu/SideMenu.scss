@@ -1,0 +1,51 @@
+@import '../../styles/variables.scss';
+
+.left-side-menu{
+    font-size: $font-size-mobile-medium;
+
+    @media (min-width: $mobile-breakpoint) {
+      font-size: $font-size-tablet-medium;
+    }
+  
+    @media (min-width: $tablet-breakpoint) {
+      font-size: $font-size-desktop-medium;
+    }
+
+    background-color:#f9f9f9;
+    width: 300px;
+    height: 640px;
+
+.side-menu-header{
+    background-color: $primary-color;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.side-sub-menu-s{
+  background-color: #DC143C;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.side-sub-menu{
+    background-color: #E6E6E6;
+    // background-color: #E6E6E6;
+    // background-color: rgb(213, 228, 228);
+    padding: 20px;
+    color: rgb(58, 52, 52);
+    font-weight: bold;
+    margin-bottom: 2px;
+    cursor: pointer;
+
+}
+
+// .side-sub-menu:hover{
+// background-color: antiquewhite;
+// transition: 300ms ease-in-out;
+// margin-left: 10px;
+// }
+
+}

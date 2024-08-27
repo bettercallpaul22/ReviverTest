@@ -1,0 +1,68 @@
+@import "../../styles/variables.scss";
+
+
+
+.main-appbar {
+
+  font-size: $font-size-mobile-medium;
+
+  @media (min-width: $mobile-breakpoint) {
+    font-size: $font-size-tablet-medium;
+  }
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: $font-size-desktop-medium;
+  }
+
+
+  background-color: #dc143c;
+}
+.menu1 {
+  background-color: honeydew;
+}
+
+.site-name {
+  background-color: teal;
+}
+
+.menu-search {
+  background-color: yellow;
+}
+
+.appbar-menu {
+  background-color: #dc143c;
+  color: white;
+  padding: 20px;
+
+  > div {
+    background-color: #dc143c;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+}
+
+.appbar-menu-hide {
+  height: 0px;
+  background-color: #dc143c;
+  color: white;
+  padding: 20px;
+  transform: scaleY(0);
+  transition: transform 0.2s ease-in-out;
+  transform-origin: top; /* Scale down from top to bottom */
+
+
+
+  > div {
+    background-color: #DC143C;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .project-content{
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+ 
+}

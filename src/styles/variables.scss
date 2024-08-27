@@ -1,0 +1,33 @@
+// Font Size Variables
+$font-size-mobile-small: 12px;
+$font-size-mobile-medium: 14px;
+$font-size-mobile-large: 16px;
+
+$font-size-tablet-small: 14px;
+$font-size-tablet-medium: 16px;
+$font-size-tablet-large: 18px;
+
+$font-size-desktop-small: 16px;
+$font-size-desktop-medium: 18px;
+$font-size-desktop-large: 20px;
+
+// Media Queries
+$mobile-breakpoint: 480px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1024px;
+
+$primary-color:#DC143C;
+$box-bg-color:#f9f9f9;
+
+// Example Usage
+body {
+  font-size: $font-size-mobile-medium;
+
+  @media (min-width: $mobile-breakpoint) {
+    font-size: $font-size-tablet-medium;
+  }
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: $font-size-desktop-medium;
+  }
+}

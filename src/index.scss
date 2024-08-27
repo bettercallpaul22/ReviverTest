@@ -1,0 +1,29 @@
+// Global styles (e.g., in a global.scss file)
+@import './styles/variables.scss';
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: $font-size-mobile-medium;
+
+  @media (min-width: $mobile-breakpoint) {
+    font-size: $font-size-tablet-medium;
+  }
+
+  @media (min-width: $tablet-breakpoint) {
+    font-size: $font-size-desktop-medium;
+  }
+}
+
+// Or in a component-specific SCSS file
+// .component-class {
+//   font-size: $font-size-mobile-small;
+
+//   @media (min-width: $mobile-breakpoint) {
+//     font-size: $font-size-tablet-small;
+//   }
+
+//   @media (min-width: $tablet-breakpoint) {
+//     font-size: $font-size-desktop-small;
+//   }
+// }

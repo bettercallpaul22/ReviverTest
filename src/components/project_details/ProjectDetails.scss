@@ -1,0 +1,91 @@
+.project-details-container {
+    // background-color: #0cba6f;
+    min-height: 600px;
+    padding: 30px;
+    position: relative;
+
+    .dismiss-button {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      z-index: 1;
+    }
+
+  
+
+    .container {
+        position: relative;
+        max-width: 800px;
+        max-height: 600px;
+        margin: auto;
+        // padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: scroll;
+      }
+
+    .payment-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background-color: #fff; /* Assuming background.paper is white; adjust if needed */
+        border: 2px solid #000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow intensity if needed */
+        padding: 16px; /* Equivalent to p: 4 in theme spacing */
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      .card {
+        padding: 20px;
+      }
+    
+
+      .project-name {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    
+      .project-details h2 {
+        font-size: 18px;
+        color: #666;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+    
+      .project-details p {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+    
+      p:last-of-type {
+        margin-bottom: 0;
+      }
+
+
+  .paragraph-container {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    margin-left: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  }

@@ -1,0 +1,31 @@
+
+.right-side-menu{
+    background-color: antiquewhite;
+    width: 300px;
+    // color: white;
+    font-weight: bold;
+    font-size: 18px;
+    
+
+    .img-nurse {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove any default spacing */
+      }
+
+      .contact-engagement{
+    padding: 20px;
+
+      }
+      
+.icon-text{
+    background-color: rgb(57, 49, 39);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+
+}
